@@ -1,0 +1,44 @@
+#root {
+  box-sizing: border-box;
+}
+.countes {
+  background-color: #634732;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  transition: 0.5s ease-in-out;
+  margin-bottom: 30px;
+}
+.countes:hover {
+  background-color: gray;
+  transform: translateY(-1px);
+}
+
+.countes h2 {
+  color: orange;
+  text-align: center;
+  padding: 50%;
+  user-select: none;
+  font-size: 50px;
+}
+.eachCount h2 {
+  text-align: center;
+  color: gray;
+}
+.btn {
+  width: 100px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: yellow;
+  color: black;
+  margin-top: 80px;
+}
+.btn:hover {
+  background-color: orange;
+  color: white;
+}
